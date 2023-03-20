@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>정현's file sender web</h1>
+    <form action = "/fileSend" method = "post" enctype = "multipart/form-data">
+        <label>이름:</label>
+        <input type = "text" name = "myname"><br>
+        <label>파일:</label>
+        <!-- <input type = "file" name = "myfile" accept="image/jpg, image/png"><br> -->
+        <!-- <input type = "file" name = "myfile" accept="image/*,*.txt"><br> -->
+        <!-- <input type = "file" name = "myfile" accept="image/*.txt.*doc,*.hwp"><br> -->
+        <!-- <input type = "file" name = "myfile" accept="video/*"><br> -->
+        <input type = "file" name = "myfile" accept="image/*"><br>
+        <button>전송</button>
+    </form>
+</body>
+</html>
